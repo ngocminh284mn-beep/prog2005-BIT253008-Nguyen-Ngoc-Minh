@@ -1,0 +1,8 @@
+class Student:
+    def __init__(self, ten, diem):
+        self.ten = ten
+        self.diem = diem
+    def display(self):
+        print(f'Sinh viên {self.ten} có điểm là {self.diem}')
+sv = Student("A", 10)
+sv.display()
