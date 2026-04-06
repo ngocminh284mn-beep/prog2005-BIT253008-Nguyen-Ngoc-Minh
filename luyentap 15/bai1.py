@@ -1,0 +1,6 @@
+so_1 = int(input("Nhập số thứ nhất: "))
+so_2 = int(input("Nhập số thứ hai: "))
+print(f"Tổng: {so_1 + so_2}")
+print(f"Hiệu: {so_1 - so_2}")
+print(f"Tích: {so_1 * so_2}")
+print(f"Thương: {so_1 / so_2 if so_2 != 0 else 'Không thể chia cho 0'}")
